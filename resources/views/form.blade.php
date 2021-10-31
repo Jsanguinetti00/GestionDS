@@ -15,7 +15,7 @@
 <body>
 <script src="https://code.jquery.com/jquery-3.2.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" ></script>
-  <header class="header">
+    <header class="header">
     <div class="header__top">
       <h4 class="header__logo">CRUD EMPLEADOS</h4>
       <div class="header__datos-user">
@@ -32,8 +32,8 @@
     </div>
     <nav class="nav">
       <ul class="nav__ul">
-          <li><a href="index.blade.php" class="nav__item-link">Inicio</a></li>
-          <li><a href="form.blade.php" class="nav__item-link">Empleados</a></li>
+          <li><a href="/" class="nav__item-link">Inicio</a></li>
+          <li><a href="employee" class="nav__item-link">Empleados</a></li>
       </ul>
     </nav>
   </header>
