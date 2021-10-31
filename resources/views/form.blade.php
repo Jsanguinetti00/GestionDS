@@ -32,8 +32,8 @@
     </div>
     <nav class="nav">
       <ul class="nav__ul">
-          <li><a href="../../index.php" class="nav__item-link">Inicio</a></li>
-          <li><a href="../views/empleados.php" class="nav__item-link">Empleados</a></li>
+          <li><a href="index.blade.php" class="nav__item-link">Inicio</a></li>
+          <li><a href="form.blade.php" class="nav__item-link">Empleados</a></li>
       </ul>
     </nav>
   </header>
