@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/employee', function () {
+    return view('form');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
